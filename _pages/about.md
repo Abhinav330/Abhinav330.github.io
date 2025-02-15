@@ -1,11 +1,12 @@
 ---
-permalink: /
+permalink: 
 title: "Hello, I'm Abhinav! 👋"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
-  - /Abhinav.github.io
+  - Abhinav.github.io/
+  - about/
+  - about.html
+  
 ---
 
 📍 Based in London, UK 🇬🇧  
