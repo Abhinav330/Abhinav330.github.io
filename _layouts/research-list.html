@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% assign base_url = "https://abhinav330.github.io/portfolio-test" %}
+
+
+<div id="main" role="main">
+  <article class="page">
+    <header>
+      <h1 class="page__title">{{ page.title }}</h1>
+    </header>
+
+    <section class="page__content">
+      {{ content }}
+    </section>
+
+    <div class="research-container">
+      {% for paper in site.research %}
+        <div class="research-card">
+          <h2><a href="{{ base_url }}{{ paper.url }}">{{ paper.title }}</a></h2>
+          <p>{{ paper.date | date: "%B %d, %Y" }}</p>
+          <p>{{ paper.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

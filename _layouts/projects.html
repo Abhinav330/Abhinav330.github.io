@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <header style="text-align: center;">
+      <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
+    </header>
+
+    <section class="page__content">
+      <div class="project-container">
+        {% for project in site.projects %}
+        <div class="project-card">
+          <!-- Left Side: Project Image (10%) -->
+          <div class="project-image">
+            <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ project.title }}">
+          </div>
+
+          <!-- Center: Project Info (80%) -->
+          <div class="project-info">
+            <h2 class="project-title">{{ project.title }}</h2>
+            <p class="project-description">{{ project.description }}</p>
+          </div>
+
+          <!-- Right Side: Buttons (10%) -->
+          <div class="project-buttons">
+            <a href="{{ project.live }}" target="_blank" class="btn btn-primary">Use this project</a>
+            <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  </article>
+</div>
+
+

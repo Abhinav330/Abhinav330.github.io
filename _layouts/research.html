@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+
+<div id="main" role="main">
+  <article class="page">
+    <header style="text-align: center;">
+      <h1 class="page__title">{{ page.title }}</h1>
+      {% if page.image %}
+        <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ page.title }}">
+      {% endif %}
+      <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+    </header>
+
+    <section class="page__content">
+      {{ content }}
+    </section>
+  </article>
+</div>
