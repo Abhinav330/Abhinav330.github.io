@@ -5,6 +5,7 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - Abhinav.github.io
 ---
 
 📍 Based in London, UK 🇬🇧  
