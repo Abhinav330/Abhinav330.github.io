@@ -2,27 +2,106 @@
 layout: default
 ---
 
-{% assign base_url = "https://abhinav330.github.io/portfolio-test" %}
+{% assign base_url = "https://abhinav330.github.io" %}
 
+<style>
+.research-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
 
-<div id="main" role="main">
-  <article class="page">
-    <header>
-      <h1 class="page__title">{{ page.title }}</h1>
-    </header>
+.research-card {
+    display: flex;
+    align-items: center;
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-    <section class="page__content">
-      {{ content }}
-    </section>
+.research-image {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    <div class="research-container">
-      {% for paper in site.research %}
-        <div class="research-card">
-          <h2><a href="{{ base_url }}{{ paper.url }}">{{ paper.title }}</a></h2>
-          <p>{{ paper.date | date: "%B %d, %Y" }}</p>
-          <p>{{ paper.description }}</p>
-        </div>
-      {% endfor %}
+.research-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.research-info {
+    width: 60%;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.research-title {
+    color: #4aa0ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.research-description {
+    color: #bbb;
+    font-size: 12px;
+}
+
+.research-buttons {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.btn-primary {
+    background: #4aa0ff;
+    color: white;
+}
+
+.btn-secondary {
+    background: #bbb;
+    color: black;
+}
+</style>
+
+<div class="research-container">
+  {% for paper in site.research %}
+    <div class="research-card">
+      <div class="research-image">
+        {% if paper.image %}
+          <img src="{{ base_url }}{{ paper.image }}" alt="{{ paper.title }}">
+        {% endif %}
+      </div>
+      <div class="research-info">
+        <h2 class="research-title">{{ paper.title }}</h2>
+        <p class="research-description">{{ paper.description }}</p>
+      </div>
+      <div class="research-buttons">
+        <a href="{{ paper.url | relative_url }}" class="btn btn-primary">Show</a>
+        {% if paper.report_link %}
+          <a href="{{ paper.report_link }}" target="_blank" class="btn btn-secondary">View Report</a>
+        {% endif %}
+        {% if paper.github %}
+          <a href="{{ paper.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
+        {% endif %}
+      </div>
     </div>
-  </article>
+  {% endfor %}
 </div>

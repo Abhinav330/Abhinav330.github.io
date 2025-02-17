@@ -2,12 +2,14 @@
 title: "Business Analytics: Solving Real-World Problems with Data"
 description: "In the dynamic world of business, decision-making is crucial. From logistics management to staffing optimization, businesses rely on data-driven insights to stay competitive. This report explores four real-world business problems and how data analytics can provide actionable solutions."
 
+image: /images/research/r2-intro.jpg
+
 date: 2024-03-03
 layout: research
 author_profile: true
 ---
 
-![Intro](/portfolio-test/images/research/r2-intro.jpg)
+![Intro](/images/research/r2-intro.jpg)
 
 
 # Introduction
@@ -49,13 +51,13 @@ This report analyses the optimal strategy for Swift Shipping regarding a potenti
 
 #### Key Findings:
  
-![fig1](/portfolio-test/images/research/r2-1.png)
+![fig1](/images/research/r2-1.png)
 
 - Shipping is normally preferred when the strike probability is below 11%.
 
 - Purchasing strike likelihood data (costing £1,000) provides significant benefit at a strike probability of 15% (p = 0.15).
 
-![fig2](/portfolio-test/images/research/r2-2.png)
+![fig2](/images/research/r2-2.png)
 
 - The expected value of information (EVI) for purchasing strike data is higher if the probability of a strike is below 25%. Above 25%, the value of information is £1,000, indicating that the cost outweighs the benefit.
 
@@ -143,19 +145,19 @@ The final model employs a multiple linear regression approach. This model predic
 
 ##### Model Evaluation:
 
-![fig3](/portfolio-test/images/research/r2-3.png)
+![fig3](/images/research/r2-3.png)
  
 - **Linearity:** Fitted values vs actual Y value plot shows a positive linear correlation between points. This suggests that the model's predictions (fitted values) increase as the actual arrival values (Y values) increase. This is a good sign because it suggests that the linear regression model captures the underlying trend in the data.
 
-![fig4](/portfolio-test/images/research/r2-4.png)
+![fig4](/images/research/r2-4.png)
 
 - **Homoscedasticity**: Residuals vs fit plot shows random points scattered around zero, indicating no apparent pattern. This suggests that all the daily customer arrival data points are given the same attention for prediction; that’s why there is no pattern upholding the assumption of homoscedasticity.
 
-![fig5](/portfolio-test/images/research/r2-5.png)
+![fig5](/images/research/r2-5.png)
 
 - **Normality of Errors:** The residuals' Q-Q plot resembles a 45-degree line with minor deviations at the beginning and end. This model can capture general trends. Still, it won't be able to predict correctly for unexpected fluctuations, and more data is needed to capture these non-linear relationships.
 
-![fig6](/portfolio-test/images/research/r2-6.png)
+![fig6](/images/research/r2-6.png)
 
 - **Multicollinearity:** The selection of only important variables reduced the complexity of the model, and the Variance Inflation Factor (VIF) for all independent variables is below 2, indicating a low risk of multicollinearity. 	
 
@@ -163,7 +165,7 @@ The final model employs a multiple linear regression approach. This model predic
 
 ##### Linear regression Equation:
 
-![fig7](/portfolio-test/images/research/r2-7.png)
+![fig7](/images/research/r2-7.png)
 
 The linear regression Equation for the model shows that Fridays have a coefficient of +425.96, meaning it is expected that there will be 426 more customer arrivals on Fridays compared to a reference day, like Monday, which likely has a coefficient close to zero. Tuesdays have a coefficient of -74.37, indicating typically fewer arrivals on Tuesdays. Both staff and faculty paydays have positive coefficients (around +303 each). This means there is an expectation of an increase in arrivals on these days compared to non-payday periods. Days before or after a holiday have a coefficient of +160.54, suggesting more customer activity around holidays. Yesterday's arrivals have the strongest influence, with a coefficient of 0.3377. This translates to an estimated increase of 0.34 arrivals today for every additional arrival yesterday. The impact weakens as looked further back, with arrivals from 19 days ago and arrivals from 20 days ago having coefficients of around 0.11 and 0.12, respectively.
 
@@ -178,11 +180,11 @@ The model's assumptions are met reasonably well based on the analysis of the fit
 
 Data analysis reveals several vital patterns and trends influencing daily customer arrivals at the credit union branch, supporting model assumptions. More Graphs are presented in Appendix A.
 
-![fig8](/portfolio-test/images/research/r2-8.png)
+![fig8](/images/research/r2-8.png)
 
 Figure: Fridays see significantly higher customer traffic than other weekdays 
 
-![fig9](/portfolio-test/images/research/r2-9.png)
+![fig9](/images/research/r2-9.png)
 
 Figure: More Arrivals if the day is around a holiday.
 
@@ -236,7 +238,7 @@ This report summarises the analysis to optimise production levels for Products 1
 
 ##### Initial Model
 
-![model1](/portfolio-test/images/research/r2-model1.png)
+![model1](/images/research/r2-model1.png)
 
 - The initial model assumed fixed labour availability. The optimal solution suggests producing 78 units of Product 1 and 63 units of Product 2, resulting in a total profit contribution of £3,284.21.
 
@@ -245,16 +247,16 @@ This report summarises the analysis to optimise production levels for Products 1
 
 - Based on this analysis, exploring overtime options in Departments A and B is recommended. The model suggests a maximum overtime cost of £15.79 per hour in Department A and £47.37 per hour in Department B.
 
-![report1](/portfolio-test/images/research/r2-report1.png)
+![report1](/images/research/r2-report1.png)
 
 
 ##### Model with Overtime Implementation
 
 - The model incorporates available overtime hours (10 hours in A, 6 hours in B, and 8 hours in C) and their associated costs (£18, £22.50, and £12 per hour, respectively).
 
-![model2](/portfolio-test/images/research/r2-model2.png)
+![model2](/images/research/r2-model2.png)
 
-![fig10](/portfolio-test/images/research/r2-10.png)
+![fig10](/images/research/r2-10.png)
  
 Figure: showing a profit for the initial model (model 1) and the new model with overtime considerations (model 2).
 
@@ -262,7 +264,7 @@ Figure: showing a profit for the initial model (model 1) and the new model with 
 
 -  The optimal overtime usage is 10 hours in Department A and 3 hours in Department B. While overtime is available in Department C, the model suggests it's not economical at this cost.
 
-![report2](/portfolio-test/images/research/r2-report2.png)
+![report2](/images/research/r2-report2.png)
 
 
 ##### Additional insight:
@@ -305,14 +307,14 @@ This report analyses a production planning policy for Paxon Pharma's amoxicillin
 
 ##### Inventory Analysis
 
-![fig11](/portfolio-test/images/research/r2-11.png)
+![fig11](/images/research/r2-11.png)
 
 A 52-week simulation model is built in Excel to evaluate a policy with three production levels triggered by inventory levels. The above chart represents the 52 weeks of inventory (opening and closing) stock trends. Then, 500 iterations were performed, varying the upper threshold (U) from 30 to 80 units while keeping the lower threshold (L) fixed at 30.
 
 ##### Findings
 - **Optimal Upper Threshold (U):** The average 52-week cost across simulations consistently decreases as U increases until 54 units and then increases, reaching a minimum of around U = 54 units, with an average weekly cost of £ 5,541.35. The average cost will be around £ 5,811.35 for 95% of the time, with a chance of deviation of £ 193.38. This indicates that holding a slightly lower inventory level up to this point reduces overall costs compared to frequent production changes.
 
-![fig12](/portfolio-test/images/research/r2-12.png)
+![fig12](/images/research/r2-12.png)
 
 - **Cost vs Upper Threshold (U):** The graph depicts a downward trend in average cost as U increases until a point when it starts increasing. The optimal value of U is when the average cost in the graph is at the lowest point.
 
@@ -334,19 +336,19 @@ This simulation analysis provides valuable insights for Paxon Pharma's amoxicill
 
 ### Appendix :
 
-![fig13](/portfolio-test/images/research/r2-13.png)
+![fig13](/images/research/r2-13.png)
  
 On Average, more customers visit the bank after or before the holiday.
 
-![fig14](/portfolio-test/images/research/r2-14.png) 
+![fig14](/images/research/r2-14.png) 
 
 More arrivals if there is a faculty or staff payday and more footfall if there is a faculty payday.
 
-![fig15](/portfolio-test/images/research/r2-15.png)
+![fig15](/images/research/r2-15.png)
  
 There will be more customer arrivals if there is a faculty payday, staff payday, or holiday after or before the day.
 
-![fig16](/portfolio-test/images/research/r2-16.png) 
+![fig16](/images/research/r2-16.png) 
 
 The distribution curve shows it is a positively skewed distribution. It shows that the customer’s arrival is different throughout the year. Generally, it stays on the lower side, but a few times, there are more customer arrivals.   
 

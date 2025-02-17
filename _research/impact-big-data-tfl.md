@@ -2,17 +2,19 @@
 title: "Impact of Big Data on Transport for London (TFL)"
 description: "The transportation sector is undergoing a significant transformation fueled by the ever-growing power of big data. As depicted in Figure 1, interest in big data has surged in recent years, reflecting its vast potential for improving efficiency, safety, and passenger experience. Transport for London (TfL), responsible for managing London's complex network of buses, trains, and cycling infrastructure, has emerged as a frontrunner in adopting big data solutions."
 
+image: /images/research/r1-intro.jpg
+
 date: 2024-02-14
 layout: research
 author_profile: true
 ---
 
-![into_img](/portfolio-test/images/research/r1-intro.jpg)
+![into_img](/images/research/r1-intro.jpg)
 
 ## Introduction
 The transportation sector is undergoing a significant transformation fueled by the ever-growing power of big data. As depicted in Figure 1, interest in big data has surged in recent years, reflecting its vast potential for improving efficiency, safety, and passenger experience. Transport for London (TfL), responsible for managing London's complex network of buses, trains, and cycling infrastructure, has emerged as a frontrunner in adopting big data solutions.
 
-![Fig1](/portfolio-test/images/research/r1-1.png)
+![Fig1](/images/research/r1-1.png)
 
 Figure 1: Google Trends showing the popularity of search team big data (Welch & Widita, 2019).
 
@@ -31,7 +33,7 @@ Despite these advancements, TfL's big data implementation has limitations. While
 ### Data Collection and Integration
 Transport for London (TfL) prides itself on its vast data sources, including Oyster card transactions and road sensor data. These are good for efficiency, real-time capabilities, and accessibility. While this diversity is admirable, it needs to be improved compared to the integrated data storage technologies implemented in other countries. For instance, leading transportation agencies in countries like Singapore have adopted advanced data storage solutions that seamlessly integrate various data streams, including public transport usage data and traffic patterns (International Trade Administration, 2024).
  
-![Fig2](/portfolio-test/images/research/r1-2.gif)
+![Fig2](/images/research/r1-2.gif)
 
 Figure 2: Big Data Architecture Overview(Antunes et al.,2019). 
 
@@ -59,7 +61,7 @@ TfL uses it to determine the most critical transportation demands and implement 
 
 This can also cut emissions, save time, and increase client satisfaction from rapid access to precise and trustworthy information. Users can use free web services or apps to access real-time data utilizing TfL's open data. Fee-based SMS warnings become a cost savings of up to £2 million annually. New real-time alert services are expected to become £3 million annually. The overall gross value added by these companies from using TfL data is estimated to be between £12m and £15m GVA pa. By collaborating with outside developers, TfL may be able to save money. Open data allows TfL to expand customer reach and improve transparency at a significantly lower cost. TfL's Big Data projects help to minimise emissions and environmental effects through optimized operations and reduced congestion (Transport for London, 2021). TfL has improved service resilience and dependability by better anticipating demand, optimizing service frequencies, and effectively handling disruptions (Transport for London, 2021).
 
-![Fig3](/portfolio-test/images/research/r1-3.png)
+![Fig3](/images/research/r1-3.png)
 
 Figure 3: Baseline (without interventions proposed in MTS) NOx emissions, 2020 to 2050 (Mayor of london,2017).
 
@@ -71,7 +73,7 @@ By increasing operational effectiveness, safety precautions, and customer experi
 
 Artificial intelligence (AI) and machine learning (ML) technology continue to be integrated into Transport for London (TfL) operations, which leads to evident outcomes in successful operational and passenger experience. Haegeman and Wright (2023) note that introducing such technologies allows TFL to take much better control of the complex network of transportation channels, quickly handling crises such as passenger traffic bottlenecks, accidents and service delivery. As part of TfL services, AI comes in at various points in its deployment, including scheduling, loading of passengers, and safety and onboard passenger comfort points during their trip (Haponik, 2023). The diagram illustrates the functioning of the entire ITS system, including AI and ML technologies integrated across the network.
   
-![Fig4](/portfolio-test/images/research/r1-4.jpg)  
+![Fig4](/images/research/r1-4.jpg)  
 
 Figure 4: Intelligent transportation system (Haponik, 2023).
 
@@ -83,7 +85,7 @@ TfL's data-driven approach allows for proactive resource planning to address fut
 
 Transport for London (TfL) harnesses big data analytics to achieve real-time management of its extensive network. TfL comprehensively understands passenger movement by integrating diverse data sources like Oyster card transactions, sensor readings, CCTV footage, and Wi-Fi hotspot data (illustrated in Figure 4) (Astura, 2024). This empowers them to proactively predict traffic patterns, identify areas with surging demand, and optimise resource allocation for maximum efficiency (Shah, 2016; Zhu et al., 2018).
 
-![Fig5](/portfolio-test/images/research/r1-5.jpg)
+![Fig5](/images/research/r1-5.jpg)
 
 Figure 5: SAP HANA Architecture diagram (SAP, 2024).
 
@@ -97,7 +99,7 @@ Data governance at TfL requires the establishment of a robust data governance st
 
 It includes limiting access to data, encrypting it to prevent unauthorised parties from reading it, teaching staff members to identify security threats, and putting a backup plan in place if something goes wrong. The objective is to protect data from hackers and other dangers, which contributes to the security of TfL operations and passengers (Transport for London,2024).
  
-![Fig6](/portfolio-test/images/research/r1-6.png)
+![Fig6](/images/research/r1-6.png)
 
 Figure 6: How data works in TFL
 
@@ -106,7 +108,7 @@ TfL abides by data protection laws, such as the General Data Protection Regulati
 ### ROI
 Transport for London has gained a lot from significant data initiatives, whether in monetary terms, operational efficiencies, or customer satisfaction. Through big data and IoT (Internet of Things), TfL can track any problems or emergencies and offer consumers a personalised update service, all while gaining profound insight into each user's journey. (Astuta,2024)
 
-![Fig7](/portfolio-test/images/research/r1-7.png)
+![Fig7](/images/research/r1-7.png)
 
 Figure 7: Cash flow at TFL (2020-21) (Astuta,2024).
 

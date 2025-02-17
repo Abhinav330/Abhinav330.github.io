@@ -13,7 +13,7 @@ redirect_from:
 
 
 
-![Albert Einstein](/portfolio-test/images/albert_bhai1.jpg){: .align-right width= "200px"}
+![Albert Einstein](/images/albert_bhai1.jpg){: .align-right width= "200px"}
 
 <hr>
 
@@ -24,12 +24,12 @@ I bridge the gap between AI and business, ensuring that cutting-edge models are 
 
 🚀 I am a Data Scientist & AI Engineer, passionate about building intelligent systems and LLM-based AI agents.  
 
-🎓 I recently completed MSc in Data Science & Analytics from University of Westminster. [Check out my acadmic research done at this time.](https://abhinav330.github.io/portfolio-test/research/)
+🎓 I recently completed MSc in Data Science & Analytics from University of Westminster. [Check out my acadmic research done at this time.](https://abhinav330.github.io/research/)
 
 💡 My research interests include LLMs, Generative AI, and Machine Learning Deployment.  
 
 🎖️ I am 3x Microsoft Certified.  
-👉 [Check out my Certificates Gallery](https://abhinav330.github.io/portfolio-test/certificates/)  
+👉 [Check out my Certificates Gallery](https://abhinav330.github.io/certificates/)  
 
 🥰 I also love Robotics, IoT & 3D Printing  
 👉 [Check out my YouTube Channel](https://www.youtube.com/@ATALL03)  
@@ -57,7 +57,7 @@ I love to build highly scalable AI applications.
 Recently, I created [Think AI](https://huggingface.co/spaces/roger33303/Think-AI), which helps tackle problems by analyzing them in **25 different ways!  
 
 🛠️ I've built several projects related to EDA, AI, and ML.  
-👉 [Check out my project showcase](https://abhinav330.github.io/portfolio-test/projects/)
+👉 [Check out my project showcase](https://abhinav330.github.io/projects/)
 
 ---
 
@@ -81,7 +81,7 @@ Recently, I created [Think AI](https://huggingface.co/spaces/roger33303/Think-AI
 - **🎓Bachelor of Technology in Computer Science**
   - 🏫 University of Engineering & Management (Jun 2018 - Jun 2022)
   - 🏆 Awards: Chancellor's Award for Tech-Maker 2021 and 2022.
-  - 🔭 Research paper: [Dual-Mode Enabled IoT-Based Smart Balcony Gardening in Urban Area.](https://abhinav330.github.io/portfolio-test/publications/)
+  - 🔭 Research paper: [Dual-Mode Enabled IoT-Based Smart Balcony Gardening in Urban Area.](https://abhinav330.github.io/publications/)
 
 
 ## 🎯 Roles and Responsibilities

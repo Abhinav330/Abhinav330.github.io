@@ -139,8 +139,10 @@ permalink: /projects/
         <p class="project-description">{{ project.description }}</p>
       </div>
       <div class="project-buttons">
-        <a href="{{ project.live }}" target="_blank" class="btn btn-primary">Use this project</a>
-        <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
+        {% if project.live %}
+            <a href="{{ project.live }}" target="_blank" class="btn btn-primary">Use this project</a>
+            {% endif %}
+            <a href="{{ project.github }}" target="_blank" class="btn btn-secondary">Code on GitHub</a>
       </div>
     </div>
   {% endfor %}
