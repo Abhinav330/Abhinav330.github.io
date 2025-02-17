@@ -8,7 +8,7 @@ author_profile: true
 
 ## 🌍 Introduction: From a Small Town to the World
 
-![me Baby](/portfolio-test/images/about-me/baby.jpg){: .align-right .img-medium}
+![me Baby](/images/about-me/baby.jpg){: .align-right .img-medium}
 
 Hello everyone! This is my story—how a small-town boy from Jharkhand, India, made his way to London, UK. 
 
@@ -18,13 +18,13 @@ Among all these places, **Ranchi, Jharkhand, India, is home.** A place filled wi
 
 ## 🎒 Early Life: The Curious Kid
 
-![Schooling](/portfolio-test/images/about-me/schooling.jpg){: .align-right .img-small}
+![Schooling](/images/about-me/schooling.jpg){: .align-right .img-small}
 
 I did my schooling in Ranchi. I was **never a topper**—in fact, I barely passed my exams. If someone told my younger self that I would one day complete my Master’s with distinction, I would have laughed in disbelief. 
 
 At 15, I discovered something that changed my life—**Arduino and Robotics.** My first project? A **Bluetooth Home Automation System.** It was the spark that ignited my passion for electronics. Even before this, I loved repairing fans, changing switches, and playing around with circuits since I was **just 10 years old.**
 
-![Robotics](/portfolio-test/images/about-me/robotics-intro.jpg){: .align-left .img-small}
+![Robotics](/images/about-me/robotics-intro.jpg){: .align-left .img-small}
 
 When I performed well in secondary school, I got to choose **Science** as my subject. But it was a complete accident that I stumbled upon **Computer Science** in higher secondary. That accident became **the turning point of my life.** Until then, coding was just a tool to make my robotic systems work. But now, it became **who I was.**
 
@@ -32,7 +32,7 @@ I **barely passed** my higher secondary exams, but despite that, I chose **Compu
 
 ## 🎓 University Life: From Culture Shock to Innovation
 
-![Colege](/portfolio-test/images/about-me/college.jpg){: .align-right .img-small}
+![Colege](/images/about-me/college.jpg){: .align-right .img-small}
 
 I pursued my **B.Tech in Computer Science** in **Kolkata, India.** Moving from a small town to a metropolitan city was a **culture shock,** but I adapted quickly. 
 
@@ -42,7 +42,7 @@ In **my first year**, I got the chance to work as an **Automation Engineer for a
 
 <br>
 
-![Robotics](/portfolio-test/images/about-me/robotics-main.jpg)
+![Robotics](/images/about-me/robotics-main.jpg)
 
 In **my second year**, I joined the **core robotics team.** With my knowledge and execution speed, I quickly became a **key member of multiple teams.** I built numerous innovative projects, presented them at **dozens of events,** and even **filed four patents.** 
 
@@ -50,13 +50,13 @@ In **my second year**, I joined the **core robotics team.** With my knowledge an
 
 Then, COVID hit. **Everything was gone in an instant.**
 
-![SIH](/portfolio-test/images/about-me/sih.jpg){: .align-right .img-small}
+![SIH](/images/about-me/sih.jpg){: .align-right .img-small}
 
 But challenges bring opportunities. Since no one was delivering results during the pandemic, I stepped up. Soon, I was made the **Student Innovation Head** of my college, negotiating between students and decision-makers, working on projects, and driving innovation in uncertain times. 
 
 ## 💼 Job Life: From Intern to Consultant
 
-![CTS](/portfolio-test/images/about-me/cts.jpg){: .align-left .img-small}
+![CTS](/images/about-me/cts.jpg){: .align-left .img-small}
 
 In my **final year**, I was offered an **internship at Cognizant** with an extended job offer. I was made the **team leader, managing 35 interns.** Despite the challenges, we achieved a **99% conversion rate to full-time roles.** This was when I truly understood what **consulting** is all about—**finding a way to grow together.**
 
@@ -66,7 +66,7 @@ I worked with a **European industry leader** and successfully delivered my proje
 
 ## ✈️ London Life: A Leap of Faith
 
-![London](/portfolio-test/images/about-me/london.jpg){: .align-right .img-small}
+![London](/images/about-me/london.jpg){: .align-right .img-small}
 
 I took the toughest decision of my life—**moving to a new country for my Master’s,** knowing that the job market was **unstable, even the worst in 50 years.**
 
@@ -82,7 +82,7 @@ Recently, I received my **unofficial marks—I graduated with distinction!** �
 
 And now, here I am. **Looking for a job in AI and Data Science.** 
 
-![me-sad](/portfolio-test/images/about-me/me-sad.jpg){: .align-left .img-small}
+![me-sad](/images/about-me/me-sad.jpg){: .align-left .img-small}
 
 **It’s tough.**
 

@@ -9,9 +9,6 @@ layout: research
 author_profile: true
 ---
 
-![Intro](/images/research/r2-intro.jpg)
-
-
 # Introduction
 
 In the dynamic world of business, decision-making is crucial. From logistics management to staffing optimization, businesses rely on data-driven insights to stay competitive. This blog explores four real-world business problems and how data analytics can provide actionable solutions.

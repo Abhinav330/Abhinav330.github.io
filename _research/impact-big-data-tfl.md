@@ -9,7 +9,6 @@ layout: research
 author_profile: true
 ---
 
-![into_img](/images/research/r1-intro.jpg)
 
 ## Introduction
 The transportation sector is undergoing a significant transformation fueled by the ever-growing power of big data. As depicted in Figure 1, interest in big data has surged in recent years, reflecting its vast potential for improving efficiency, safety, and passenger experience. Transport for London (TfL), responsible for managing London's complex network of buses, trains, and cycling infrastructure, has emerged as a frontrunner in adopting big data solutions.
