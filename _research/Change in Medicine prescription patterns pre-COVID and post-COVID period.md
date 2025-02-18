@@ -134,6 +134,7 @@ Fig 6: After adding new columns to the 2018 dataset.
 So many columns in the 2018 and 2023 datasets must be removed per the data analysis requirement. As shown in `Table 3`. The following attributes are kept in the dataset. `Figs 7 and 8` represent the dataset for 2018 and 2023 after feature selection. 
 
 Table 3: Columns kept for data analysis.
+
 | Column (2018 Dataset)| Column (2023 Dataset)|Title	|Type|Description|
 |:------|:-------|:----------|:--------|:-------|
 |Year|YEAR|Year as YYYY	number|Example: 2018|Month	MONTH	Month as MM	number	Example: Jan|
