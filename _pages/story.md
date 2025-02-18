@@ -1,5 +1,5 @@
 ---
-permalink: /my-story/
+permalink: my-story/
 title: "Hello, I'm Abhinav! 👋"
 author_profile: true
 ---

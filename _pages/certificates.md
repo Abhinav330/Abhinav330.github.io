@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Certificates"
-permalink: /certificates/
+permalink: certificates/
 ---
 
 <style>

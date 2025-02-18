@@ -2,7 +2,7 @@
 layout: research-list
 title: "Academic Research"
 author_profile: true
-permalink: /research/
+permalink: research/
 ---
 
 ## 📚 Academic reseach reports and analysis

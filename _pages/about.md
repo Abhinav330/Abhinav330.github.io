@@ -1,9 +1,9 @@
 ---
-permalink: /
+# permalink:  
 title: "Hello, I'm Abhinav! 👋"
 author_profile: true
 redirect_from: 
-  - Abhinav.github.io/
+  - /Abhinav.github.io/
   - about/
   - about.html
   
