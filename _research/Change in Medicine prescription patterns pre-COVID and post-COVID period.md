@@ -27,12 +27,14 @@ COVID-19, also known as coronavirus, is an infectious disease caused by the SARS
 Covid-19 was a pandemic which left everyone with permanent to temporary mental and physical damage. This study focuses on finding the trends in the usage of medicines and the drug types and targeted biological systems based on the data of 2018-19 compared with 2023-24.
 
 Table 1: Statistics of Covid in the UK.
+
 |  |  |
 |:-----------------------|:------------:|
 | Total Number of Cases: | 24.9 million |
 | Total Number of Deaths: |	232.1 thousand | 
 | Total Number of Recoveries: | 	22.9 million | 
 | Current Infection rate (2023):| 	2.7% | 
+
 
 *(Office for National Statistics, 2022)
 
@@ -141,8 +143,9 @@ Table 3: Columns kept for data analysis.
 |BNF_PARAGRAPH|BNF_PARAGRAPH|BNF Paragraph Name|string|The name is given to a BNF paragraph within the BNF classification system.|
 |BNF_SECTION|BNF_SECTION|BNF Section Name|string|The name is given to a BNF section within the BNF classification system.|
 |BNF_CHAPTER|BNF_CHAPTER|BNF Chapter Name|string|The name given to a BNF chapter is the broadest grouping within the BNF classification system.|
-|Quantity|TOTAL_QUANTITY|Total Quantity|number|The total quantity of a drug or appliance prescribed.
+|Quantity|TOTAL_QUANTITY|Total Quantity|number|The total quantity of a drug or appliance prescribed.|
  
+
 ![fi7](/images/research/r5-7.png)  
 Fig 7: Selected features for the 2018 dataset.
 
