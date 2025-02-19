@@ -3,7 +3,7 @@ title: "MSc. Data Science Disertation: About AI-Powered Chatbot for University W
 
 image: /images/research/d1-intro.jpg
 
-date: 2024-03-03
+date: 2025-01-01
 layout: research
 author_profile: true
 ---
