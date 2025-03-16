@@ -396,12 +396,11 @@ Dataset formatting is crucial in preparing the training data for fine-tuning Lar
 #### 5.2.5.1. Alpaca Template
 The Alpaca Template (Figure 18) is one of the most widely used prompt formats in the LLM fine-tuning community. It is designed to provide clear instructions to the model, helping it understand the task and context effectively. This format includes an instruction, an input, and a response. It is particularly suitable for models like Gemma-2-9B and Mistral-7B, trained to follow specific instructions in a structured format. The original dataset was converted into the Alpaca format, as shown in Figure 19, to align with the requirements of these models. The Alpaca prompt is structured as follows:
 
-![fig18](/images/research/d1-18.png) 
+![fig18](/images/research/d1-18.png)
 Figure 18: Alpaca prompt templates (Unsloth - Open source Fine-tuning for LLMs, 2024)
 
-![fig19](/images/research/d1-19.png) 
+![fig19](/images/research/d1-19.png)
 Figure 19: Formatted dataset for Gemma2 and Mistral model.
- 
 
 #### 5.2.5.2. ChatML Format
 The ChatML Format (Figure 20) is an advanced and versatile structure that simulates natural conversations. Its key advantage is distinguishing between multiple roles in a dialogue, such as the system, user, and assistant. This format is particularly effective for building chatbots and conversational agents because it mimics real-world interactions, preserving the logical flow of a conversation. It was selected for fine-tuning Llama-3.2-3B and Phi-3.5-mini-instruct, optimized for chat-based applications requiring context-aware and coherent responses. The ChatML format provides a hierarchical structure to define different conversation roles. The system segment offers initial instructions or context to guide the model’s behaviour throughout the conversation. For example, the system could specify that the model should provide concise, formal, and accurate answers. The user segment contains the input query or prompt provided by the user. The assistant segment includes the model’s generated response to the user query. The structured format ensures that the model understands the flow and context of a multi-turn dialogue, which is critical for delivering meaningful and contextually relevant responses. An example of the ChatML format is shown in Figure 21
